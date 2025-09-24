@@ -30,4 +30,13 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('Registro enviado');
         });
     }
-    
+     // Navegación
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            if (this.classList.contains('disabled')) {
+                e.preventDefault();
+                alert('Deshabilitado');
+            }
+        });
+    });
+});   
