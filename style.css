@@ -20,7 +20,11 @@ body {
     margin: 0 auto;
 }
 
-
+.titel {
+    color: rgb(255, 249, 249); 
+    text-align: center; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
 
 
