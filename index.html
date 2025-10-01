@@ -69,6 +69,18 @@
             background-color: rgba(255, 255, 255, 0.1);
             transform: translateY(-2px);
         }
+         /* Estilo para el item inactivo */
+        .nav-menu a.inactive {
+            opacity: 0.6;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .nav-menu a.inactive:hover {
+            background-color: transparent;
+            transform: none;
+        }
+
 
         /* Responsive */
         @media (max-width: 768px) {
@@ -94,7 +106,7 @@
         <div class="nav-container">
             <a href="#" class="logo">Colegio <span>San Ignacio</span></a>
             <ul class="nav-menu">
-                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#inicio" class="inactive">Inicio</a></li>
                 <li><a href="#sedes">Sedes</a></li>
                 <li><a href="#contacto">Contacto</a></li>
                 <li><a href="#actividades">Actividades</a></li>
