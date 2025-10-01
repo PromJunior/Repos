@@ -5,94 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Registro - Colegios</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
-
-        <!-- Navigation -->
-        <nav class="navigation">
-            <ul class="nav-tabs">
-                <li class="nav-item active">
-                    <a href="#" class="nav-link">Principal es Colegios</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle">INFO</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" class="dropdown-item">Colegio 1</a></li>
-                        <li><a href="#" class="dropdown-item">Colegio 2</a></li>
-                        <li><a href="#" class="dropdown-item">Colegio 3</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+<body>
+    <div>
+        <nav>
+           <div>
+                <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+           </div>
+        </nav>    
         <main class="row g-4">
             <!-- Bienvenida -->
-            <section class="col-12">
-                <div class="card shadow">
-                    <div class="card-body text-center">
-                        <h2 class="h3 mb-3 text-primary">Bienvenidos al Sistema de Colegios</h2>
-                        <p class="lead">
-                            Aquí podrás encontrar información sobre los colegios de tu distrito, realizar reservas
-                            y mantenerte en contacto con nosotros.
-                        </p>
-                    </div>
-                </div>
-            </section>
+            
 
             <!-- Misión y Visión -->
-            <section class="col-md-6">
-                <div class="card shadow h-100">
-                    <div class="card-body">
-                        <h3 class="h4 text-success mb-3">Nuestra Misión</h3>
-                        <p>
-                            Brindar un sistema eficiente para la gestión y consulta de colegios,
-                            garantizando acceso rápido y confiable a la información educativa.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="col-md-6">
-                <div class="card shadow h-100">
-                    <div class="card-body">
-                        <h3 class="h4 text-info mb-3">Nuestra Visión</h3>
-                        <p>
-                            Ser la plataforma líder en información y servicios educativos,
-                            conectando colegios, estudiantes y familias en un mismo espacio.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Servicios -->
-            <section class="col-12">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h3 class="h4 text-warning mb-3 text-center">Servicios Disponibles</h3>
-                        <div class="row text-center">
-                            <div class="col-md-4 mb-3">
-                                <div class="p-3 border rounded bg-light">
-                                    <h4 class="h6 text-primary">Búsqueda de Colegios</h4>
-                                    <p>Encuentra colegios por distrito de manera rápida y sencilla.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="p-3 border rounded bg-light">
-                                    <h4 class="h6 text-primary">Reservas en Línea</h4>
-                                    <p>Realiza tus reservas para visitas y reuniones con colegios.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="p-3 border rounded bg-light">
-                                    <h4 class="h6 text-primary">Atención al Cliente</h4>
-                                    <p>Contáctanos directamente vía WhatsApp o Teléfono.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
         </main>
 
 
@@ -100,9 +44,7 @@
             <p class="mb-0">&copy; 2024 Sistema de Registro de Personal. Todos los derechos reservados.</p>
         </footer>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Jscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
